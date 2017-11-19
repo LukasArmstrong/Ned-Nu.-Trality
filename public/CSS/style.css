@@ -13,7 +13,7 @@ p{
 mark{
   background: black;
 }
-h1,h2,p{
+h1,h2,p,a{
   color:lime;
 }
 /* MODAL */
@@ -53,4 +53,21 @@ h1,h2,p{
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*FOR LINKS */
+a.uofl:hover {
+  font-weight: bold;
+}
+
+a.uofl:link {
+   text-decoration: none;
+}
+a.uofl:visited {
+   text-decoration: none;
+}
+
+a.uofl:active {
+   color: #AD0000;
+   text-decoration: none;
 }
