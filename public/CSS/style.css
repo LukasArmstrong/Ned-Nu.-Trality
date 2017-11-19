@@ -2,7 +2,13 @@ body{
   background-color: black;
 }
 h1{
-
+  font-size: 400%;
+}
+h2{
+  font-size: 200%;
+}
+p{
+  font-size: 175%;
 }
 mark{
   background: black;
