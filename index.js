@@ -7,4 +7,7 @@ app.get('/', function(req, res)	{
 app.use(express.static(__dirname + '/public'));
 app.listen(port, function() {
 	console.log('it actuslly fookin worked');
-	});
+});
+d3.csv("Senate.csv", function(data) {
+  console.log(data[0]);
+});	
